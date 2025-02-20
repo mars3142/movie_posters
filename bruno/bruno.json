@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "movie-posters",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
