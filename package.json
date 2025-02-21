@@ -10,7 +10,7 @@
     "dev": "nodemon"
   },
   "engines": {
-    "node": "= 23.x"
+    "node": "= 22.x"
   },
   "author": "Peter Siegmund (mars3142)",
   "license": "AGPL3",

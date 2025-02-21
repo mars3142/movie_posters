@@ -6,7 +6,7 @@ steps:
       - build
       - >-
         $_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA
-      - '--builder=gcr.io/buildpacks/builder:v1'
+      - '--builder=gcr.io/buildpacks/builder:google-22'
       - '--network=cloudbuild'
       - '--path=.'
       - '--env=GOOGLE_ENTRYPOINT'
