@@ -1,0 +1,23 @@
+meta {
+  name: get posters
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{base_uri}}
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "width": 480,
+    "height": 320,
+    "count": 4,
+    "orientation": "horizontal",
+    "shuffle": true,
+    "backgroundColor": "#000"
+  }
+  
+}
